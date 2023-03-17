@@ -121,7 +121,7 @@ button{
 	color: #fff;
 	background-color:#0c8cd3;
 	border-color: #04324c;
-	border-radius: 5px;
+	border-radius: 10px;
 	width: 20%;
     display: block;
     clear: both;
@@ -137,8 +137,8 @@ button:active{
 button[disabled=disabled], button:disabled {
     background-color: gray;
 	border-color: darkgray;
-
 }
+
 
 .adicionar-paciente{
     margin-top: 30px;
@@ -150,4 +150,9 @@ button[disabled=disabled], button:disabled {
 
 .paciente-invalido{
 	background-color: #dc143c;
+}
+
+#mensagens-erro{
+	font-weight: 600;
+	color:#dc143c;
 }
