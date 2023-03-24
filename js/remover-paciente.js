@@ -1,4 +1,3 @@
-let paciente = document.querySelectorAll(".paciente");
 
 let tabela = document.querySelector("table");
 
